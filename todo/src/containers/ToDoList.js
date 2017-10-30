@@ -6,7 +6,10 @@ class ToDoList extends Component {
   renderToDo() {
     return this.props.todo.map((todo, i) => {
       return (
-
+        <li
+          key={i}>
+          {todo.todo}
+        </li>
       )
     }
   }
