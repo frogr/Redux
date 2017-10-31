@@ -1,0 +1,82 @@
+body {
+  font-family: "Raleway", sans-serif;
+  font-size: 40px;
+  padding-top: 5%;
+  height: 100%;
+  margin: 0;
+  text-align: center;
+  background-repeat: no-repeat;
+  background: linear-gradient(to bottom right, #7182dc, #e482d9) fixed;
+}
+/* after clicking */
+.completedItem {
+  color: #7182dc;
+  font-weight: 100;
+  margin: 10px;
+  text-decoration: none;
+  text-shadow: 1px 1px rgba(0, 0, 0, 0.55);
+}
+/* before clicking */
+.incompleteItem {
+  color: #f0d8e6;
+  margin: 10px;
+}
+
+/* entire center block */
+.list {
+  display: block;
+  text-align: center;
+  margin: 100px 100px 5px 100px;
+  background-color: rgba(0, 0, 0, 0.55);
+  padding: 20px 30px;
+  border-radius: 10px;
+}
+/* input area */
+.textInput {
+  text-align: center;
+  border: solid 1px #fff;
+  border-radius: 15%;
+  box-shadow: inset 1px 1px 2px 0 #707070;
+  color: transparent;
+  text-shadow: 0 0 0 black;
+}
+.textInput:focus {
+  outline: none;
+}
+/* remove all complete */
+.remove {
+  margin: 0px 100px;
+  background-color: #7182dc;
+  border-color: rgba(0, 0, 0, 0.55);
+}
+
+.hidden {
+  display: none;
+}
+
+/* all done */
+.done {
+  top: 0;
+  text-align: center;
+  font-style: italic;
+  color: #7182dc;
+  font-weight: 1000;
+  text-decoration: none;
+  text-shadow: 1px 1px rgba(0, 0, 0, 0.55);
+  margin-bottom: -58px;
+}
+/* delete button */
+.space {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  margin-left: 5px;
+  margin-bottom: 18px;
+  height: 24px;
+  width: 42px;
+  padding: 0px;
+  background-color: #4a1835;
+  border-color: black;
+  border-width: thin;
+  border-radius: 50%;
+}
